@@ -1,0 +1,463 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#menü{
+    width: 100%;
+    height: 90px;
+}
+
+#sol{
+    width: 10%;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: +5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.resim1{
+    max-width: 70%;
+    max-height: auto;
+}
+
+#orta{
+    width: 40%;
+    height: 80px;
+    margin-left: 300px;
+    margin-top: +5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.tık{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #696969;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.tık::after{
+    content: '';
+    position: absolute;
+    left: 25%;
+    bottom: -23px; 
+    width: 50%; 
+    height: 2px;
+    background-color: currentColor; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.tık:hover::after {
+    transform: scaleX(1);
+    background-color: black;
+}
+
+.tık:hover{
+    color: black;
+}
+
+#sağ{
+    width: 10%;
+    height: 80px;
+    margin-left: 1250px;
+    margin-top: +5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ikon{
+    margin-right: 20px;
+    color: #696969;
+}
+
+.resim2{
+    width: 100%;
+    height: auto;
+}
+
+#text1{
+    margin-top: 40px;
+    text-align: center;
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#grup{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#değer1{
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+}
+
+#değer2{
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+}
+
+#değer3{
+    width: 30%;
+    height: 300px;
+    margin: 1%;
+}
+
+.resim3{
+    width: 100%;
+    height: auto;
+}
+
+.text2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+#text2{
+    margin-top: 90px;
+    text-align: center;
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#grup2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer4{
+    height: 620px;
+    width: 22%;
+    margin: 20px;
+}
+
+.resim4{
+    width: 100%;
+    height: auto;
+}
+
+.text3{
+    margin-top: 10px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+
+.değer5{
+    height: 310px;
+    width: 100%;
+}
+
+.değer6{
+    height: 310px;
+    width: 100%;
+}
+
+#text3{
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center;
+    color: #222222;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#grup3{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer7{
+    height: 180px;
+    width: 10%;
+    margin: 20px;
+}
+
+.resim5{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.text4{
+    margin-top: 10px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.click{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#grup4{
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer8{
+    width: 20%;
+    height: 120px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer9{
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+}
+
+.ikont{
+    font-size: 35px;
+}
+
+.değer10{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.değer11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+.son{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son link{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.değer10 :hover{
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son :visited{
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#grup5{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer12{
+    width: 45%;
+    height: 215px;
+    margin: 20px;
+}
+
+.resim6{
+    width: 100%;
+    height: auto;
+}
+
+#bar{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    color: #666;
+    border-top: 1px solid #ececec;
+}
+
+#grup6{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.değer13{
+    width: 16%;
+    height: 320px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    line-height: 2;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+
+.değer14{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+    color: #696969;;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.son2{
+    text-decoration: none;
+    color: #696969;;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son2 link{
+    text-decoration: none;
+    color: #696969;;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.değer13 :hover{
+    text-decoration: underline;
+    color: #696969;;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son2 :visited{
+    text-decoration: underline;
+    color: #696969;;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#bar2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #fff;
+    color: #666;
+    border-top: 2px solid #ececec;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: -70px;
+}
+
+#hak{
+    color: #696969;
+    margin-top: -15px;
+    margin-left: 10%;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son3{
+    text-decoration: none;
+    color: #696969;
+    font-size: 13px;
+    margin-right: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son3 link{
+    text-decoration: none;
+    color: #696969;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#değer15 :hover{
+    text-decoration: underline;
+    color: #696969;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+.son3 :visited{
+    text-decoration: underline;
+    color: #696969;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", "Meiryo UI", Helvetica, Arial, sans-serif;
+}
+
+#değer15{
+    margin-top: -15px;
+    margin-left: 60%;
+}
+
+#msi{
+    opacity: 0.4;
+    width: 5%;
+    margin-left: 90px;
+    margin-top: -38px;
+}
